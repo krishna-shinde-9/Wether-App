@@ -1,2 +1,3 @@
 some bugs are fix 
 layout change is done now
+new footer note
