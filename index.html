@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basic Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="appContainer">
+    <h1 class="app-title" id="appTitle">🌤️ Weather App</h1>
+    
+    <div class="search-box" id="searchBox">
+      <input 
+        type="text" 
+        class="city-input" 
+        id="cityInput" 
+        placeholder="Enter city name" 
+      />
+      <button class="search-btn" id="searchBtn">Get Weather</button>
+    </div>
+    
+    <div class="weather-card" id="weatherCard">
+      <h2 class="city-name" id="cityName">City Name</h2>
+      <img 
+        src="https://openweathermap.org/img/wn/01d@2x.png" 
+        alt="Weather Icon" 
+        class="weather-icon" 
+        id="weatherIcon" 
+      />
+      <p class="temperature" id="temperature">Temperature: 25°C</p>
+      <p class="condition" id="condition">Condition: Clear Sky</p>
+      <p class="humidity" id="humidity">Humidity: 60%</p>
+    </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
